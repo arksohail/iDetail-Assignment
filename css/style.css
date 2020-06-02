@@ -109,6 +109,10 @@ main {
 	padding-left: 108px;
 }
 
+.heading, footer {
+	padding-left: 64px;
+}
+
 /*
 Header Stylings
 ====================================================================================
@@ -158,16 +162,12 @@ Header Stylings
 
 /* Heading Section */
 
-.heading {
-	padding-left: 65px;
-}
-
 .heading .slide-btn {
 	display: flex;
 }
 
 .slide-btn {
-	margin-left: 11px;
+	margin-left: 12px;
 }
 
 .slide-btn .button figure {
@@ -176,7 +176,7 @@ Header Stylings
 
 .heading__content {
 	margin-top: 10px;
-	padding-left: 41px;
+	padding-left: 42px;
 	padding-right: 56px;
 	position: relative;
 	display: flex;
@@ -309,4 +309,53 @@ Main Stylings
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+}
+
+/*
+Footer Stylings
+====================================================================================
+*/
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.footer-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.footer-nav li {
+	flex: 0 1 19.8%;
+	margin-left: .2%;
+	background-color: #adadad;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 63px;
+}
+
+.footer-nav li:nth-child(1) {
+	margin-left: 0%;
+}
+
+.footer-nav li a {
+	padding: 0 5px;
+	align-self: center;
+	border: none;
+	color: #fff;
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	letter-spacing: .5px;
+	line-height: 1.1;
+}
+
+.footer-nav li a:hover {
+	color: #9F1897;
 }
