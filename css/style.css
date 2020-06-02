@@ -97,3 +97,49 @@ a {
 	-o-transition: 0.5s ease-in-out;
 	transition: 0.5s ease-in-out
 }
+
+/*
+Header Stylings
+====================================================================================
+*/
+
+/* Side Navigation */
+
+.side-nav {
+	width: 66px;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #626262;
+	text-align: center;
+}
+
+.side-nav__share {
+	padding: 20px;
+}
+
+.side-nav__share:hover {
+	background-color: #3C3C3C;
+}
+
+.side-nav__arrow {
+	background-color: #3C3C3C;
+	padding: 25px;
+}
+
+.side-nav nav {
+	margin: auto 0;
+}
+
+.side-nav nav li a {
+	display: block;
+	padding: 10px;
+}
+
+.side-nav nav li a:hover {
+	background-color: #3C3C3C;
+}
