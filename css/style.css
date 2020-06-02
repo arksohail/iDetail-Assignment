@@ -131,6 +131,7 @@ Header Stylings
 
 .side-nav__share {
 	padding: 14px 24px 14px 18px;
+	margin-bottom: 20px;
 }
 
 .side-nav__share:hover {
@@ -139,7 +140,7 @@ Header Stylings
 
 .side-nav__arrow {
 	background-color: #3C3C3C;
-	padding: 25px;
+	padding: 24px 23px;
 }
 
 .side-nav nav {
@@ -148,7 +149,7 @@ Header Stylings
 
 .side-nav nav li a {
 	display: block;
-	padding: 10px;
+	padding: 8.5px 9px;
 }
 
 .side-nav nav li a:hover {
