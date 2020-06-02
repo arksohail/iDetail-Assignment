@@ -98,6 +98,10 @@ a {
 	transition: 0.5s ease-in-out
 }
 
+main {
+	padding-left: 108px;
+}
+
 /*
 Header Stylings
 ====================================================================================
@@ -142,4 +146,48 @@ Header Stylings
 
 .side-nav nav li a:hover {
 	background-color: #3C3C3C;
+}
+
+/* Heading Section */
+
+.heading {
+	padding-left: 66px;
+}
+
+.heading .slide-btn {
+	display: flex;
+}
+
+.slide-btn {
+	margin-left: 10px;
+}
+
+.slide-btn .button figure {
+	padding: 15px 10px 0;
+}
+
+.heading__content {
+	padding: 0 42px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.heading__content h2 {
+	font-size: 32px;
+}
+
+h1 {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 80px;
+	flex: 0 1 80px;
+}
+
+h1 a {
+	width: 100%;
+	text-indent: -9999px
+}
+
+h1 img {
+	float: right
 }
