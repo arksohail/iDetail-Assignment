@@ -211,7 +211,7 @@ Main Stylings
 /* Graph Section */
 
 .graph {
-	margin-top: 25px;
+	padding-top: 30px;
 }
 
 .tab__nav {
@@ -221,8 +221,8 @@ Main Stylings
 }
 
 .tab__nav li {
-	flex: 0 1 24.5%;
-	margin-left: .5%;
+	flex: 0 1 19.5%;
+	margin-left: .3%;
 }
 
 .tab__nav li:first-child {
@@ -231,14 +231,59 @@ Main Stylings
 
 .tab-link {
 	width: 100%;
-	padding: 15px;
+	padding: 14px 0 10px;
 	border: none;
 	color: #fff;
 	background-color: #6B6B6C;
 	font-family: Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 12px;
+	letter-spacing: .4px;
 }
 
 .tab-link.active, .tab-link:hover {
 	background-color: #9F1897;
+}
+
+.tab__content {
+	background-color: #f4f4f4;
+}
+
+.tab-slide {
+	padding: 27px 8px 20px;
+}
+
+.tab-slide__content, .tab-slide__chart {
+	background-color: inherit;
+}
+
+.tab-slide, .tab-slide__chart {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tab-slide__chart {
+	flex: 0 1 62.8%;
+	align-items: flex-end;
+}
+
+.max-btn {
+	margin-bottom: 27px;
+}
+
+.tab-slide__content {
+	flex: 0 1 31.5%;
+}
+
+.tab-slide__content h3 {
+	font-size: 18px;
+	letter-spacing: -1px;
+	opacity: 0.9;
+}
+
+.tab-slide__content p {
+	margin-top: 15px;
+	color: #585858;
+	font-size: 15px;
+	line-height: 1.25;
+	opacity: 0.8;
 }
