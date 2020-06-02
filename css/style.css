@@ -367,3 +367,158 @@ footer {
 .footer-nav li a:hover {
 	color: #9F1897;
 }
+
+/*
+Media Queries
+====================================================================================
+*/
+
+/* Ipad Pro Screen Resolution (12.9-inch) */
+
+@media only screen and (max-width: 1024px) {
+	/* Graph Section */
+	.tab-link {
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+	/* Footer Navigation */
+	.footer-nav li a {
+		font-size: 14px;
+		letter-spacing: 0;
+	}
+}
+
+/* Ipad Screen Resolution (8-inch)*/
+
+@media only screen and (max-width: 768px) {
+	/* Heading Content */
+	.heading__content {
+		padding-left: 10px;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	.heading__content h2 {
+		font-size: 26px;
+		letter-spacing: 1px;
+	}
+	h1 {
+		margin-top: 0;
+		flex: 0 1 65px;
+	}
+	/* Main */
+	main {
+		padding-left: 73px;
+		padding-bottom: 63px;
+	}
+	/* Graph Section */
+	.tab__nav li {
+		flex: 0 1 24.5%;
+		margin-left: .3%;
+	}
+	.tab-link:hover {
+		background-color: #6B6B6C;
+	}
+	.tab-slide, .tab-slide__chart {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.tab-slide__chart {
+		flex: 0 1 100%;
+	}
+	.tab-slide__content {
+		flex: 0 1 100%;
+	}
+	.tab-slide__content h3 {
+		font-size: 23px;
+		letter-spacing: 0;
+		opacity: 0.9;
+	}
+	.tab-slide__content p {
+		margin-top: 18px;
+		color: #585858;
+		font-size: 15px;
+		line-height: 1.25;
+		opacity: 0.8;
+	}
+	.tab-link {
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+	/* Summary */
+	.summary h3 {
+		font-size: 20px;
+	}
+	.summary p {
+		font-size: 16px;
+	}
+	/* Footer Navigation */
+	.footer-nav li a {
+		font-size: 12px;
+		letter-spacing: 0;
+	}
+}
+
+/* Iphone 5/SE - Landscape View	and Below */
+
+@media only screen and (max-width: 568px) {
+	/* Side Navigation */
+	.side-nav {
+		justify-content: space-between;
+	}
+	.side-nav__share {
+		margin: 0;
+	}
+	.side-nav nav {
+		margin: 0;
+	}
+	/* Heading Content */
+	.slide-btn {
+		margin: 0 auto;
+		justify-content: center;
+	}
+	.heading__content {
+		padding-right: 10px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.heading__content h2 {
+		order: 1;
+		font-size: 26px;
+		text-align: center;
+	}
+	h1 {
+		width: 56px;
+	}
+	/* Main */
+	main {
+		padding-left: 73px;
+		padding-right: 10px;
+		padding-bottom: 63px;
+	}
+	/* Graph Section */
+	.tab__nav li {
+		flex: 0 1 33%;
+		height: 100%;
+	}
+	.tab__nav {
+		background-color: #6B6B6C;
+	}
+	/* Footer Navigation */
+	footer {
+		position: relative;
+	}
+	.footer-nav {
+		background-color: #6B6B6C;
+		display: block;
+	}
+	.footer-nav li {
+		display: block;
+		text-align: left;
+		margin: 0;
+		padding: 10px;
+		height: auto;
+		background-color: transparent;
+	}
+}
