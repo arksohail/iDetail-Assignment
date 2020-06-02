@@ -22,7 +22,9 @@ git clone https://github.com/arksohail/sa.git
 https://github.com/arksohail/iDetail-Assignment/archive/master.zip
 ```
 
-## Deployment
+## Project URL
+
+https://arksohail.bitbucket.io
 
 ## Built With
 
