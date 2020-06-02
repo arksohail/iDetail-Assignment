@@ -287,3 +287,26 @@ Main Stylings
 	line-height: 1.25;
 	opacity: 0.8;
 }
+
+/* Summary Section */
+
+.summary {
+	margin-top: 27px;
+}
+
+.summary h3 {
+	font-size: 15px;
+	opacity: .9;
+	letter-spacing: -0.1px;
+}
+
+.summary p {
+	margin-top: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+	line-height: 1.35;
+	color: #000;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
