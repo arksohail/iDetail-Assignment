@@ -159,7 +159,7 @@ Header Stylings
 /* Heading Section */
 
 .heading {
-	padding-left: 66px;
+	padding-left: 65px;
 }
 
 .heading .slide-btn {
@@ -167,28 +167,31 @@ Header Stylings
 }
 
 .slide-btn {
-	margin-left: 10px;
+	margin-left: 11px;
 }
 
 .slide-btn .button figure {
-	padding: 15px 10px 0;
+	padding: 13px 16px 0 7px;
 }
 
 .heading__content {
-	padding: 0 42px;
+	margin-top: 10px;
+	padding-left: 41px;
+	padding-right: 56px;
+	position: relative;
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: flex-start;
 }
 
 .heading__content h2 {
-	font-size: 44px;
+	font-size: 36px;
+	letter-spacing: .65px;
 }
 
 h1 {
-	-webkit-box-flex: 0;
-	-ms-flex: 0 1 80px;
-	flex: 0 1 80px;
+	margin-top: -18px;
+	flex: 0 1 86px;
 }
 
 h1 a {
