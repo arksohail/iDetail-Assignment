@@ -50,6 +50,7 @@ Typography Stylings
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	background-color: #232323;
 }
 
 h2, h3 {
@@ -57,7 +58,7 @@ h2, h3 {
 }
 
 h2 {
-	font-weight: 900;
+	font-weight: 400;
 }
 
 /*
@@ -74,7 +75,13 @@ Common Stylings
 }
 
 .container {
-	width: 100%
+	width: 100%;
+	max-width: 1024px;
+	height: 768px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	background-color: #fff;
 }
 
 img {
@@ -89,7 +96,7 @@ select {
 	border: none
 }
 
-a {
+a, button {
 	color: inherit;
 	display: inline-block;
 	text-decoration: none;
@@ -110,9 +117,9 @@ Header Stylings
 /* Side Navigation */
 
 .side-nav {
-	width: 66px;
+	width: 64px;
 	height: auto;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -123,7 +130,7 @@ Header Stylings
 }
 
 .side-nav__share {
-	padding: 20px;
+	padding: 14px 24px 14px 18px;
 }
 
 .side-nav__share:hover {
@@ -174,7 +181,7 @@ Header Stylings
 }
 
 .heading__content h2 {
-	font-size: 32px;
+	font-size: 44px;
 }
 
 h1 {
